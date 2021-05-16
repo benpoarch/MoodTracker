@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="text_centre">Hello world!</string>
+
+    //sign up
+    <string name="enterEmail">Email</string>
+    <string name="enterPassword">Password</string>
+    <string name="signUpFinalButton">Register</string>
+
+    //login
+    <string name="registerButton">Create An Account</string>
+    <string name="loginButton">Login</string>
+
+    //mood test
+    <string name="moodTest">Daily Mood Test</string>
+    <string name="backButton">Back</string>
+    <string name="doneButton">Done</string>
+
+    //emergency contacts
+    <string name="emergencyButton">Emergency</string>
+    <string name="contactMind">For a list of mental health crisis helplines, please visit mind.org.uk</string>
+    <string name="mindBtn">Take me there</string>
+
+</resources>

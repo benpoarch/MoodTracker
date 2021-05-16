@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569881904576",
+    "project_id": "moodtracker-50c98",
+    "storage_bucket": "moodtracker-50c98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569881904576:android:517dcf6adc8e0e01917425",
+        "android_client_info": {
+          "package_name": "com.example.moodtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569881904576-statq2ltaunf945b09k9iijp4lh5tif6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp7l1I9013m10n8JP7JqTVf91DKhA_KZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569881904576-statq2ltaunf945b09k9iijp4lh5tif6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
