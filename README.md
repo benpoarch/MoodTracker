@@ -11,3 +11,6 @@ Contains an emergency contact page, for users in crisis.
 Uses Firebase for user authentication.
 Uses CrunchyCalendar library (see LICENSE.md).
 Uses SurveyKit library (see LICENSE.md).
+
+Activity code found at:
+MoodTracker/app/src/main/java/com/example/moodtracker/
