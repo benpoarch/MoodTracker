@@ -1,4 +1,4 @@
-# MoodTracker
+# MoodTracker - by Ben Poarch
 
 Part of my technical project/dissertation at University
 (BSc Computer Science at Swansea University)
