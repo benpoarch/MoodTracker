@@ -18,8 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.archit.calendardaterangepicker.customviews.DateRangeCalendarView
-        android:id="@+id/dateRangeCalendarView"
+
+
+    <ru.cleverpumpkin.calendar.CalendarView
+        android:id="@+id/calendar_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="84dp"
