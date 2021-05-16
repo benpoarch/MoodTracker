@@ -1,6 +1,6 @@
 # MoodTracker - by Ben Poarch
 
-Part of my technical undergraduate project/dissertation
+Part of my undergraduate technical project/dissertation
 (BSc Computer Science at Swansea University).
 Supported by Psychiatrist at Swansea Singleton Hospital.
 
