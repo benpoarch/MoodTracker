@@ -12,5 +12,5 @@ Uses Firebase for user authentication.
 Uses CrunchyCalendar library (see LICENSE.md).
 Uses SurveyKit library (see LICENSE.md).
 
-Activity code shortcut:
+Activity code found at:
 MoodTracker/app/src/main/java/com/example/moodtracker/
