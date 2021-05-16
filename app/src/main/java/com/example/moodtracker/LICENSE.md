@@ -24,7 +24,7 @@ SOFTWARE.
 
 
 
-For SurveyKit lirary (https://github.com/quickbirdstudios/SurveyKit):
+For SurveyKit library (https://github.com/quickbirdstudios/SurveyKit):
 
 MIT License
 
