@@ -1,39 +1,343 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/testTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/intro_title"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textBrief"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/intro_text"
+        android:textStyle="bold" />
+
+
+    <!-- question 1 -->
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:text="@string/question1_text">
+    </TextView>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 2 -->
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question2_text" />
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 3 -->
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question3_text" />
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 4 -->
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question4_text" />
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 5 -->
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question5_text" />
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 6 -->
+    <TextView
+        android:id="@+id/q6"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question6_text" />
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 7 -->
+    <TextView
+        android:id="@+id/q7"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question7_text" />
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 8 -->
+    <TextView
+        android:id="@+id/q8"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question8_text" />
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+
+    <!-- question 9 -->
+    <TextView
+        android:id="@+id/q9"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question9_text" />
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+
+    <!-- question 10 -->
+    <TextView
+        android:id="@+id/q10"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question10_text" />
+    <Spinner
+        android:id="@+id/spinner10"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+
+    <!-- question 11 -->
+    <TextView
+        android:id="@+id/q11"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question11_text" />
+    <Spinner
+        android:id="@+id/spinner11"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 12 -->
+    <TextView
+        android:id="@+id/q12"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question12_text" />
+    <Spinner
+        android:id="@+id/spinner12"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 13 -->
+    <TextView
+        android:id="@+id/q13"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question13_text" />
+    <Spinner
+        android:id="@+id/spinner13"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 14 -->
+    <TextView
+        android:id="@+id/q14"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question14_text" />
+    <Spinner
+        android:id="@+id/spinner14"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+
+    <!-- question 15 -->
+    <TextView
+        android:id="@+id/q15"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question15_text" />
+    <Spinner
+        android:id="@+id/spinner15"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 16 -->
+    <TextView
+        android:id="@+id/q16"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question16_text" />
+    <Spinner
+        android:id="@+id/spinner16"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 17 -->
+    <TextView
+        android:id="@+id/q17"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question17_text" />
+    <Spinner
+        android:id="@+id/spinner17"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 18 -->
+    <TextView
+        android:id="@+id/q18"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question18_text" />
+    <Spinner
+        android:id="@+id/spinner18"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 19 -->
+    <TextView
+        android:id="@+id/q19"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question19_text" />
+    <Spinner
+        android:id="@+id/spinner19"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 20 -->
+    <TextView
+        android:id="@+id/q20"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question20_text" />
+    <Spinner
+        android:id="@+id/spinner20"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+    <!-- question 21 -->
+    <TextView
+        android:id="@+id/q21"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="@string/question21_text" />
+    <Spinner
+        android:id="@+id/spinner21"
+        android:layout_width="138dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="0dp"
+        android:entries="@array/answers_array" />
+
+
+
 
     <Button
         android:id="@+id/BackBtn"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/backButton"/>
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:text="@string/backButton">
+    </Button>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="0dp"
-        android:layout_height="729dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/DoneBtn"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
-        android:layout_marginTop="664dp"
-        android:text="@string/doneButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+</ScrollView>

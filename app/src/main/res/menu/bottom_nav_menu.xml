@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/profile"
+        android:title="Login"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+    <item android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/ic_baseline_help_24"/>
+
+    <item android:id="@+id/sos"
+        android:title="Emergency"
+        android:icon="@drawable/emergency"/>
+
+
+</menu>
